@@ -1,0 +1,71 @@
+Task 1: find largest number
+
+set largest_number to 0 
+
+request a positive number from the user
+store the number in the number
+
+while number is not equal to 0 
+   if number is greater than largest_number
+   set largest_number number
+
+   request another positive number from the user
+   store the number in number
+
+print largest_number
+
+
+Task 2: Name and hello world
+
+request the user's name
+
+store the user's name in a variable called first_name
+
+print first_name along with "Hello, World"
+
+Task 3: Calculate the average
+
+set total to 0
+set count to 0
+
+request an integer from the user
+
+while the user has another integer to enter
+   add the integer to total
+   add 1 to count
+
+   request another integer from the user
+
+if count is greater than 0 
+  calculate average by dividing total by count 
+  print average
+
+Task 4: grocery list 
+
+read the grocery list 
+
+create an empty list called products_left_to_buy
+
+for each product in grocery list 
+  if product has not been bought
+     add the product to products_left_to_buy 
+
+sort products_left_to_buy into alphabetical order
+
+print products_left_to_buy
+
+Task 5: flowchart
+
+start 
+
+read X and Y 
+
+set S to X + Y
+
+set A to S / 2
+
+set P to X * Y
+
+print S, A and P
+
+stop
